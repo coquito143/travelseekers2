@@ -136,13 +136,14 @@ a:visited  {
   animation: slidein 7s infinite;
 }
 
-.addPhoto, .login-form, .update-form-div{
-  height: 80vh;
+.addPhoto, .login-form, .update-form-div, .profile-div{
+  min-height: 80vh;
 }
 
 .profile-div, .login-form {
   padding-top: 10vh;
   padding-bottom: 2vh;
+
 }
 
 
@@ -322,7 +323,7 @@ input {
 
 #sc-facts {
  height: 70%;
- margin-top: 8vh;
+ margin-top: 2vh;
 text-align: left;
 margin-left: 7vh;
 margin-right: 7vh;
