@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: "http://localhost:3000"
+  baseURL: "https://enigmatic-savannah-82227.herokuapp.com"
 })
 
 // ============== Auth ================
