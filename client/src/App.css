@@ -188,15 +188,31 @@ a:visited  {
   margin-top: 0;
 }
 
-.countries-list-div img {
+/* .countries-list-div img {
   width: 25vw;
   height: 20vw;
   margin: 10px;
+  overflow: hidden;
+} */
+
+.country-wrapper-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.countries-img {
+  width: 27vw;
+  height: 20vw;
+  margin: 10px;
+  overflow: hidden;
 }
 
 .country-img:hover {
   transform: scale(1.1);
   border: 5px solid black;
+  transition: all 0.7s ease;
 }
 
 img {
